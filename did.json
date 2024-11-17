@@ -1,1 +1,25 @@
-
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:last-butnotleast.github.io:elbtech:",
+  "verificationMethod": [
+    {
+      "@context": "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/",
+      "id": "did:web:last-butnotleast.github.io:elbtech:#X509-JWK2020",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:last-butnotleast.github.io:elbtech:",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "yO7oOI0_pbibdj5CqxCWt1rH9nB4gt1KyIrPVHKcTTJrowpSXxEexJmIb6ioBZserNX_s8cufmpW-07NmeispaWlfKhReyViTl0URO43Ins8t2aNBbXenlM1PPpRYGVmeANN3vATOxUVAf-KYrYiGD-0oL-ad9kFZx6FgrifsMlxDndDPuHV4EFjEPNr6yzjVXaqaKP2V37zeb4wV7f8sSphLbpyJjfwmzdhZJLUEeRu_wnZIooFzuGqcnkO8nZ5uN_8NEL7VG3KgZ_ZWdMeU0TsJyy39DwSybpg5PnmJ2D7bzhIHu9-22PINB5VYfMivWXKy4_S7NYdabclMd9IsQ",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://last-butnotleast.github.io/elbtech//.well-known/certificate.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:last-butnotleast.github.io:elbtech:#X509-JWK2020"
+  ]
+}
