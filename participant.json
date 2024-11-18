@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://last-butnotleast.github.io/elbtech/participant.json",
+  "issuer": null,
+  "issuanceDate": "2024-11-18T06:08:17.985Z",
+  "credentialSubject": {
+    "id": "https://last-butnotleast.github.io/elbtech/participant.json#subject",
+    "type": "gx:LegalParticipant",
+    "gx:legalName": "elbtech GmbH",
+    "gx:legalRegistrationNumber": {
+      "id": "https://last-butnotleast.github.io/elbtech/legalRegistrationNumber.json"
+    },
+    "gx:headquarterAddress": {
+      "gx:countrySubdivisionCode": "DE-HH"
+    },
+    "gx:legalAddress": {
+      "gx:countrySubdivisionCode": "DE-HH"
+    }
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2024-11-18T07:08:18.003+01:00",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:elbtech.dev#X509-JWK2020",
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..J_CfKEle8gRL4YYmTRphqynhLFpajAw1P3EdBfg72oAAeXuGTAUyjdXBH47OFYM9fetGO51oEGRIv--DeXQSDPUXui7cepvbSDgebd0EcPXsEpwgt29Gh9HGx-Hb7phBqM1jnk6b4x4X4c_gx0wwMMNLyJ54SeAGkV_4PjZpI7W5Woro8porkwxG2j84JfSnMZ16IDuLzuMC5uAmY0Y8pbPb9WG85wRe3tcvkRzdG253plZzhx6wMRxSj7Dm0Q8nKuFF-NC1K-uYqUlfWh552XvFIjOqwxoNFizYeq3mCfLzUjsdNdbOsdsXwb-eIKP4I9YDtOSLzj_xElix1OE6CQ"
+  }
+}
