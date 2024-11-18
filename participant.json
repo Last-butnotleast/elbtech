@@ -9,7 +9,7 @@
   ],
   "id": "https://last-butnotleast.github.io/elbtech/participant.json",
   "issuer": "did:web:last-butnotleast.github.io:elbtech",
-  "issuanceDate": "2024-11-18T06:40:58.544Z",
+  "issuanceDate": "2024-11-18T06:53:26.723Z",
   "credentialSubject": {
     "id": "https://last-butnotleast.github.io/elbtech/participant.json#subject",
     "type": "gx:LegalParticipant",
@@ -26,9 +26,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2024-11-18T07:40:58.564+01:00",
+    "created": "2024-11-18T07:53:26.748+01:00",
     "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:web:elbtech.dev#X509-JWK2020",
-    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Kbo9EOX1wkMIzHg6xSbdF3fpj7xLaeFEDNZUehcY9Qh83UHJ-gr-rI1WIMrbiRbxq8zDLY-3AtY-NMGSS1UTr3PbFGz_RPMt5lQtavI2D6gvER7t3Wa3Cw6O_--5QBuFIth_hmowSdxRsgGsCeGZ82o8aT8UDbPqr__9wmqduW7cxS7A_3ZjISF5JOlN64uVWh1u_aMm9QlozUEpCGnwMHMesnc5uC387FyZIZwweqaHmoFDziV8jliDCrVODWWEW0no7FcW0Usqr2T06SCv-wJVf0vjDCH_BiNH0p3hq3cGdXHYApfQC0khJCy2aayLoicMTKylkPrrDGPkHlZ0sA"
+    "verificationMethod": "did:web:last-butnotleast.github.io:elbtech#X509-JWK2020",
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..eO6sF2sEF9MMESFr-HjoAAtQVS7NRDALFRHnLP4W7hMbP-dRXPit48r97S1QZKPyIqQ9U5fiy3OHxJ4ADLgNCz7aXxgo6OSG8sdxAIlV1byU5zbwB4WjtHXajdO8eeV-4wKdSLGzFSViVtN0P9lfNHfNpaz893osL0hlT3zQciKSSO2-UVRFgkWuzvm-DeH74BXpG6Vg9Mln8pA5iaFU0KYqhSxYP8Y_OS9dmgpRP4qp4H9JMmfBOLgWttmolzbKqhXyA90QKA2Q90j4lvwNHbTBtyKWm4IycZ24CkWycXR96SFN66QIwHL1HxaXZhXAcSclg9Zs8TzbQSVLiaE8iQ"
   }
 }
