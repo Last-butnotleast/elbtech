@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "did:web:example.com:legalRegistrationNumber1",
+  "issuer": "did:web:last-butnotleast.github.io:notary",
+  "issuanceDate": "2024-11-18T06:05:14.730Z",
+  "credentialSubject": {
+    "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+    "type": "gx:legalRegistrationNumber",
+    "id": "did:web:last-butnotleast.github.io:elbtech:legalRegistrationNumber.json",
+    "gx:vatID": "DE365738571",
+    "gx:vatID-countryCode": "DE"
+  },
+  "evidence": [
+    {
+      "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+      "gx:executionDate": "2024-11-18T06:05:14.729Z",
+      "gx:evidenceOf": "gx:vatID"
+    }
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2024-11-18T06:05:14.758Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:last-butnotleast.github.io:notary#X509-JWK2020",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UL2TXYLo6rMHow5wz5pRINP18y9AG1sHMsMy2tSc-KxCyHwRRquFTm9qCBOLRSpz5t4IfZ9fV7Ojtpb79Qn25W3PzKGiN3yt6VR9s-FLZbqlPkl8KgEClFeKlAKUEn5nPS17H1BFoPxZ0PN11Sk3WCfBeyPHd8oiAj365__jfRbB4ZDgPLBT4ZpgiToBxlcCxZ1W1r54SJI4VqUQFDdb9h5Kz2S90GOk-ZqQMEcUGUT6M0oz90HygJO3tTeB7_ndebnvI2u8aB15O16GVVZO9YAlq82g6-Bn0wFDV-lWdrz-NnZlSN9mXnghGL8b22QQgD92b39S2puRX6u5HcL8RA"
+  }
+}
