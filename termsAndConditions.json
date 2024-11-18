@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": "VerifiableCredential",
+  "issuanceDate": "2024-11-18T06:00:38.803Z",
+  "credentialSubject": {
+    "type": "gx:GaiaXTermsAndConditions",
+    "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+    "id": "https://last-butnotleast.github.io/elbtech/termsAndConditions.json#subject"
+  },
+  "issuer": "did:web:last-butnotleast.github.io:elbtech",
+  "id": "https://last-butnotleast.github.io/elbtech/termsAndConditions.json",
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2024-11-18T07:00:38.805+01:00",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:last-butnotleast.github.io:elbtech:#X509-JWK2020",
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NJmW9KDUFQ3mHnKKQO2IEjY7xupCU0rP-R5tK3LL9P3xJqcnFW2OmENU5plHJ6jqtxUF3-F8IcNAogmDtAeAjOUH7REPi696zM2iIAIzV2MziUu2VdjglUdYkGTf5y9uP88ms9xOtqScwJnEqHaAP3BdOTulnqB27wUPXEnMnatAYkQHpZDLWwDCtbv19IEqrl2lavCK31q3OSuLPOWe8k0quG_6Hv7LIQWPhYKCnRnQ_qTXa3h4b8TLwqTWue0tc7zfV-zkR9J4YHZILA8fyE9j1eCBIVXWcGZtFVxgz_3HnkEKCIz1JTy3G-9UPuWc3QW3lu1PnJVN87JlTW3c2w"
+  }
+}
