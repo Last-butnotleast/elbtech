@@ -1,34 +1,35 @@
 {
   "@context": [
-    "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/security/suites/jws-2020/v1",
-    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      "https://www.w3.org/2018/credentials/v1",
+      "https://w3id.org/security/suites/jws-2020/v1",
+      "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
   ],
   "type": [
-    "VerifiableCredential"
+      "VerifiableCredential"
   ],
   "id": "https://last-butnotleast.github.io/elbtech/participant.json",
   "issuer": "did:web:last-butnotleast.github.io:elbtech",
-  "issuanceDate": "2024-11-18T06:53:26.723Z",
+  "issuanceDate": "2024-11-18T07:46:19.806Z",
   "credentialSubject": {
-    "id": "https://last-butnotleast.github.io/elbtech/participant.json#subject",
-    "type": "gx:LegalParticipant",
-    "gx:legalName": "elbtech GmbH",
-    "gx:legalRegistrationNumber": {
-      "id": "https://last-butnotleast.github.io/elbtech/legalRegistrationNumber.json"
-    },
-    "gx:headquarterAddress": {
-      "gx:countrySubdivisionCode": "DE-HH"
-    },
-    "gx:legalAddress": {
-      "gx:countrySubdivisionCode": "DE-HH"
-    }
+      "gx:legalName": "elbtech GmbH",
+      "gx:headquarterAddress": {
+          "gx:countrySubdivisionCode": "DE-HH"
+      },
+      "gx:legalRegistrationNumber": {
+          "id": "https://last-butnotleast.github.io/elbtech/legalRegistrationNumber.json#subject"
+      },
+      "gx:legalAddress": {
+          "gx:countrySubdivisionCode": "DE-HH"
+      },
+      "type": "gx:LegalParticipant",
+      "gx-terms-and-conditions:gaiaxTermsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700",
+      "id": "https://last-butnotleast.github.io/elbtech/participant.json#subject"
   },
   "proof": {
-    "type": "JsonWebSignature2020",
-    "created": "2024-11-18T07:53:26.748+01:00",
-    "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:web:last-butnotleast.github.io:elbtech#X509-JWK2020",
-    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..eO6sF2sEF9MMESFr-HjoAAtQVS7NRDALFRHnLP4W7hMbP-dRXPit48r97S1QZKPyIqQ9U5fiy3OHxJ4ADLgNCz7aXxgo6OSG8sdxAIlV1byU5zbwB4WjtHXajdO8eeV-4wKdSLGzFSViVtN0P9lfNHfNpaz893osL0hlT3zQciKSSO2-UVRFgkWuzvm-DeH74BXpG6Vg9Mln8pA5iaFU0KYqhSxYP8Y_OS9dmgpRP4qp4H9JMmfBOLgWttmolzbKqhXyA90QKA2Q90j4lvwNHbTBtyKWm4IycZ24CkWycXR96SFN66QIwHL1HxaXZhXAcSclg9Zs8TzbQSVLiaE8iQ"
+      "type": "JsonWebSignature2020",
+      "created": "2024-11-18T08:46:19.866+01:00",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:last-butnotleast.github.io:elbtech#X509-JWK2020",
+      "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..R2wrqonKM7jQ8soqBFtAZNIDJOLj1pdCzmw8D3g9kau9--aFUJ_ac0htPMwv27CV4BDOgh6QCgfpkl-cV3AYeGpH4yS3aT2QZQ7hKJ7lpIkP2vxuFDl7_Se8R1XbtECGB-atnukP-IF7bQJPasXKdHQ3Uu34JVDcNIfLrHDeHD6ZPA_gHziP7D0wgvnj0a1D1gef5gwi3FrRtnaYqKvSz5KeRmMY_YYMNSIUSWczAhNWAviA67kU_tOiycuPknN2YCKcrSVLrObpq0LltitGRAXZIqzOMmc6P8DK1ipfzg71lVtG6gmefQCYBrt5KAS7rIKEKpzLT5WxbKsp20znuw"
   }
 }
