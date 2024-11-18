@@ -1,0 +1,47 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://storage.gaia-x.eu/credential-offers/b3e0a068-4bf8-4796-932e-2fa83043e203",
+  "issuer": "did:web:localhost%3A3001:",
+  "issuanceDate": "2024-11-18T09:16:03.445Z",
+  "expirationDate": "2025-02-16T09:16:03.446Z",
+  "credentialSubject": [
+    {
+      "type": "gx:compliance",
+      "id": "https://last-butnotleast.github.io/elbtech/legalRegistrationNumber.json",
+      "gx:integrity": "sha256-1366a1d699e06b41ecd76293b5e93d780b326aeed0ca7d183d4323f6243fc84d",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:legalRegistrationNumber"
+    },
+    {
+      "type": "gx:compliance",
+      "id": "https://last-butnotleast.github.io/elbtech/termsAndConditions.json",
+      "gx:integrity": "sha256-3a5b5fc81bd7b0568464cfc327f379b609a8d3983eadc535976a436594e41857",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:GaiaXTermsAndConditions"
+    },
+    {
+      "type": "gx:compliance",
+      "id": "https://last-butnotleast.github.io/elbtech/participant.json",
+      "gx:integrity": "sha256-18bc8ef2207f08523683a33d02b582dd38f20e51fdad50782b9ea08face746f6",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:LegalParticipant"
+    }
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2024-11-18T09:16:03.459Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:localhost%3A3001:#X509-JWK2020",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..QC_sU4AkSoG8hOkRHEKxVHaYbpMQeOu0AFaqkJtbSrMSiHbekCNIRCo6c3ThFI5K5iFwl9o8UY2rhtNMlCJSf5MpfOKqHb8csR_SiP7BVNE0vvDh7pURtS4aeJIqFMgQaGi1cPqOvzajzaCALrKyC_pne8W5iPAiiHPQP3G9b3-2rUENIjrJtwx14HQ7kkyzn3jo8reKkcAz75gUnPaftuD7RhgRQ6zmwK4VkEdPhEge2K7_9JBigWzzilda_0ELAH2TRRgVlV8RQ2e7t3KFzHRgFgqC-wDpaJuh7Uw0aXi6Nfn_teJveONY83Y7VGxnjqWMuePmnXsYjUBdSN7s9Q"
+  }
+}
