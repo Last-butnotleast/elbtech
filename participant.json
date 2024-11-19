@@ -1,35 +1,35 @@
 {
   "@context": [
-      "https://www.w3.org/2018/credentials/v1",
-      "https://w3id.org/security/suites/jws-2020/v1",
-      "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
   ],
   "type": [
-      "VerifiableCredential"
+    "VerifiableCredential"
   ],
   "id": "https://last-butnotleast.github.io/elbtech/participant.json",
   "issuer": "did:web:last-butnotleast.github.io:elbtech",
-  "issuanceDate": "2024-11-18T07:46:19.806Z",
+  "issuanceDate": "2024-11-19T05:38:18.671Z",
   "credentialSubject": {
-      "gx:legalName": "elbtech GmbH",
-      "gx:headquarterAddress": {
-          "gx:countrySubdivisionCode": "DE-HH"
-      },
-      "gx:legalRegistrationNumber": {
-          "id": "https://last-butnotleast.github.io/elbtech/legalRegistrationNumber.json#subject"
-      },
-      "gx:legalAddress": {
-          "gx:countrySubdivisionCode": "DE-HH"
-      },
-      "type": "gx:LegalParticipant",
-      "gx-terms-and-conditions:gaiaxTermsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700",
-      "id": "https://last-butnotleast.github.io/elbtech/participant.json#subject"
+    "gx:legalName": "elbtech GmbH",
+    "gx:headquarterAddress": {
+      "gx:countrySubdivisionCode": "DE-HH"
+    },
+    "gx:legalRegistrationNumber": {
+      "id": "https://last-butnotleast.github.io/elbtech/legalRegistrationNumber.json#cs"
+    },
+    "gx:legalAddress": {
+      "gx:countrySubdivisionCode": "DE-HH"
+    },
+    "type": "gx:LegalParticipant",
+    "gx-terms-and-conditions:gaiaxTermsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700",
+    "id": "https://last-butnotleast.github.io/elbtech/participant.json#cs"
   },
   "proof": {
-      "type": "JsonWebSignature2020",
-      "created": "2024-11-18T08:46:19.866+01:00",
-      "proofPurpose": "assertionMethod",
-      "verificationMethod": "did:web:last-butnotleast.github.io:elbtech#X509-JWK2020",
-      "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..R2wrqonKM7jQ8soqBFtAZNIDJOLj1pdCzmw8D3g9kau9--aFUJ_ac0htPMwv27CV4BDOgh6QCgfpkl-cV3AYeGpH4yS3aT2QZQ7hKJ7lpIkP2vxuFDl7_Se8R1XbtECGB-atnukP-IF7bQJPasXKdHQ3Uu34JVDcNIfLrHDeHD6ZPA_gHziP7D0wgvnj0a1D1gef5gwi3FrRtnaYqKvSz5KeRmMY_YYMNSIUSWczAhNWAviA67kU_tOiycuPknN2YCKcrSVLrObpq0LltitGRAXZIqzOMmc6P8DK1ipfzg71lVtG6gmefQCYBrt5KAS7rIKEKpzLT5WxbKsp20znuw"
+    "type": "JsonWebSignature2020",
+    "created": "2024-11-19T06:38:18.696+01:00",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:last-butnotleast.github.io:elbtech#X509-JWK2020",
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..cShd2a-Ymf-AXu9ayYUWwYYa0GTpgLPrMVNPNyP7WYbX20GX3_Ga65kyU40Q-o1Xp3TkEGZ_2itcBXIBM4f-08pC8GB4MTCj3fZthJgFIJneXZt3NL_6zZsQOHj2Xfi4lIKijndLwJEwN-vQ0L4iEMv5JpN-_Hep0mFkumn1eYgY-HBrLO6CLd5u9vgLHA_Qj_9H2gJ2J6R3QIR9Ze8rhYwsnt8Of0kvv0AwmQV_95BbDrDqrdvkx1dsutp4EteFtm4nJbYHTBhWs9dlXt13gYXp8pDJj3vAEd_3bQ85Bz_hITTHqz9emHrZjoJFZ-EGYPpq-mRi_YAAyi-ux1h_og"
   }
 }
