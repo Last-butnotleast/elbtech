@@ -1,45 +1,47 @@
 {
-  '@context': [
-    'https://www.w3.org/2018/credentials/v1',
-    'https://w3id.org/security/suites/jws-2020/v1',
-    'https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#'
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
   ],
-  type: [ 'VerifiableCredential' ],
-  id: 'https://last-butnotleast.github.io/elbtech/gaia-x.json',
-  issuer: 'did:web:compliance.gaia-x.elbtech.dev',
-  issuanceDate: '2024-11-19T06:25:46.402Z',
-  expirationDate: '2025-02-17T06:25:46.402Z',
-  credentialSubject: [
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://last-butnotleast.github.io/elbtech/gaia-x.json",
+  "issuer": "did:web:compliance.gaia-x.elbtech.dev",
+  "issuanceDate": "2024-11-19T06:27:23.636Z",
+  "expirationDate": "2025-02-17T06:27:23.636Z",
+  "credentialSubject": [
     {
-      type: 'gx:compliance',
-      id: 'https://last-butnotleast.github.io/elbtech/legalRegistrationNumber.json',
-      'gx:integrity': 'sha256-ba52b0f82d8eabd3cbb9cdfd01510fc876ecee68944de1304f1db11029631088',
-      'gx:integrityNormalization': 'RFC8785:JCS',
-      'gx:version': '22.10',
-      'gx:type': 'gx:legalRegistrationNumber'
+      "type": "gx:compliance",
+      "id": "https://last-butnotleast.github.io/elbtech/legalRegistrationNumber.json",
+      "gx:integrity": "sha256-ba52b0f82d8eabd3cbb9cdfd01510fc876ecee68944de1304f1db11029631088",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:legalRegistrationNumber"
     },
     {
-      type: 'gx:compliance',
-      id: 'https://last-butnotleast.github.io/elbtech/termsAndConditions.json',
-      'gx:integrity': 'sha256-da2149a80348c91f1357749ae7061d1727ea22b56a42843416f45326f62a104d',
-      'gx:integrityNormalization': 'RFC8785:JCS',
-      'gx:version': '22.10',
-      'gx:type': 'gx:GaiaXTermsAndConditions'
+      "type": "gx:compliance",
+      "id": "https://last-butnotleast.github.io/elbtech/termsAndConditions.json",
+      "gx:integrity": "sha256-da2149a80348c91f1357749ae7061d1727ea22b56a42843416f45326f62a104d",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:GaiaXTermsAndConditions"
     },
     {
-      type: 'gx:compliance',
-      id: 'https://last-butnotleast.github.io/elbtech/participant.json',
-      'gx:integrity': 'sha256-e95f15a4d3b282a1ed290a9b617f2ca4bc3c95dc042f667bb39a302b6a997f3c',
-      'gx:integrityNormalization': 'RFC8785:JCS',
-      'gx:version': '22.10',
-      'gx:type': 'gx:LegalParticipant'
+      "type": "gx:compliance",
+      "id": "https://last-butnotleast.github.io/elbtech/participant.json",
+      "gx:integrity": "sha256-e95f15a4d3b282a1ed290a9b617f2ca4bc3c95dc042f667bb39a302b6a997f3c",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:LegalParticipant"
     }
   ],
-  proof: {
-    type: 'JsonWebSignature2020',
-    created: '2024-11-19T06:25:46.416Z',
-    proofPurpose: 'assertionMethod',
-    verificationMethod: 'did:web:compliance.gaia-x.elbtech.dev#X509-JWK2020',
-    jws: 'eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..oUheXIwFo7pIgPAaPQZBLiedABXg4Dnp2nl90tuiIeoWZbjj_BDmcpZ7RbGEtis8FGbQtnSrOYcKFeN7BlHZfDgWdodg6-55PPcR1qlCO3Jx62jwQ-iCQbN0U_P047Pk_GCR6v63fn1UsQ7sqRAEjEkj49T_Vq02cAMAVjV9HuoUZ_HGHiEJkWyVahBdh3j7GnR4dLYb0luHYm_Qx7Gi704GBm-fZt7zbaYVxpCmu5ebG48WGxI3imvYrrJwmT1P-HQa05obJ07qpub3G7rsHj4MXqGnLgIf6Q5wbd0swA9da9n0uS9mXTkMbrojG7K6yi_27ugrYe92ELJQmXqXOw'
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2024-11-19T06:27:23.646Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:compliance.gaia-x.elbtech.dev#X509-JWK2020",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..kg2Lnm8rw5yLgYHPXF5dnBAb0vkHQhdUuGl_i2zHtzgGi1qZi-q4QupIEyTiRaPTao0nyWXiNHKFR69SoH5ap7IzDXllheUO-9P9j0b7pGf4ORhzC1dUuarKsXrUc9DpzoVYDcNrvFRV5AXkHzK1wL6TLcsi0NFSsAHAMvEPVDlB3JpCSLsohmvuqHOTFNn-V4XuLvoEyaQNMkYYAsnBIqS4pV08eJ-fd1qqH_nX6DA3avJ0RaDD6WDGN9QoaOkmjITvDMwsyA0McInips5ybshH4VjcR28qVSNrKvskiMxInRNkVT79k6n34yKv9VVlnbKvRYOOpGnhxxmuXc3ryA"
   }
 }
